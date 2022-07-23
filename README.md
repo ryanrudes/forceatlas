@@ -6,7 +6,7 @@ This package is a Python-friendly port of the multithreaded [Java implementation
 It can be installed with the default Python package manager via the command
 
 ```
-pip install git+https://github.com/ryanrudes/forceatlas
+pip install forceatlas
 ```
 
 ## Example

@@ -11,5 +11,8 @@ setup(
    url = 'https://github.com/ryanrudes/forceatlas',
    download_url = 'https://github.com/ryanrudes/forceatlas/archive/refs/tags/v0.1.0.tar.gz',
    keywords = ['multithreading', 'networkx', 'forceatlas2', 'graph-layout', 'force-directed-graphs'],
-   install_requires = ['networkx', 'pandas']
+   install_requires = ['networkx', 'pandas'],
+   package_data = {
+      "forceatlas": ["ext/forceatlas2.jar", "ext/gephi-toolkit-0.9.2-all.jar"]
+   }
 )

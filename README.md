@@ -22,5 +22,3 @@ pos = fa2.fa2_layout(G, iterations = 10000, threshold = 1e-3)
 nx.draw(G)
 plt.savefig("graph.png")
 ```
-
-<img src="https://i.ibb.co/GJwnq0D/graph.png" alt="graph" height="300">

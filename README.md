@@ -1,5 +1,10 @@
 # Gephi ForceAtlas2
 
+[![PyPI download month](https://img.shields.io/pypi/dm/forceatlas.svg)](https://pypi.python.org/pypi/forceatlas/)
+[![PyPI - Status](https://img.shields.io/pypi/status/forceatlas)](https://pypi.python.org/pypi/forceatlas/)
+[![PyPI](https://img.shields.io/pypi/v/forceatlas)](https://pypi.python.org/pypi/forceatlas/)
+![GitHub](https://img.shields.io/github/license/ryanrudes/forceatlas)
+
 This package is a Python-friendly port of the multithreaded [Java implementation](https://github.com/klarman-cell-observatory/forceatlas2) of the Gephi ForceAtlas2 layout algorithm. It is compatible with [networkx](https://github.com/networkx/networkx) and supports both 2D and 3D layout.
 
 ## Installation

@@ -8,9 +8,11 @@ import pkg_resources
 import tempfile
 import os
 
+separator = ';' if os.name == "nt" else ':'
+
 classpath = (
     pkg_resources.resource_filename("forceatlas", "ext/forceatlas2.jar") +
-    ":" +
+    separator +
     pkg_resources.resource_filename("forceatlas", "ext/gephi-toolkit-0.9.2-all.jar")
 )
 
